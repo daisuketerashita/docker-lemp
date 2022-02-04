@@ -33,8 +33,8 @@ services:
     environment:
       - PMA_ARBITRARY=1
       - PMA_HOSTS=mysql
-      - PMA_USER=****
-      - PMA_PASSWORD=****
+      - PMA_USER=test
+      - PMA_PASSWORD=test
     ports:
       - "3000:80"
     volumes:
